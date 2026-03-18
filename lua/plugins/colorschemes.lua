@@ -41,6 +41,7 @@ local colors = {
       }
     end,
   },
+  { "EdenEast/nightfox.nvim" },
 }
 
 -- all colors schemes use priority = 1000 in order to load first
