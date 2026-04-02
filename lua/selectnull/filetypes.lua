@@ -13,7 +13,7 @@ autocmd {
 }
 
 autocmd {
-  pattern = { "javascript", "html", "htmldjango", "lua" },
+  pattern = { "javascript", "typescript", "html", "htmldjango", "lua", "css" },
   callback = function()
     vim.opt_local.shiftwidth = 2
     vim.opt_local.softtabstop = 2

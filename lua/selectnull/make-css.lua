@@ -4,7 +4,7 @@ end
 
 function CompileCSS()
   pcall(save) -- ignore an error (eg no file open)
-  vim.cmd "make css"
+  vim.cmd "make build-css"
 end
 
 -- Bind in Normal mode and Insert modes
