@@ -9,6 +9,8 @@ return {
       auto_install = true,
       highlight = { enable = true },
       indent = { enable = true },
+      -- Ignore Swift parser installation issues (use LSP instead)
+      ignore_install = { "swift" },
     }
   end,
 }
