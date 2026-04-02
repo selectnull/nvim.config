@@ -13,7 +13,11 @@ return {
       -- Conform can also run multiple formatters sequentially
       -- python = { "isort", "black" },
       --
+      swift = { "swift_format" }, -- or "swiftformat"
       javascript = { "prettier" },
+      typescript = { "prettier" },
+      css = { "prettier" },
+      scss = { "prettier" },
     },
   },
 }
