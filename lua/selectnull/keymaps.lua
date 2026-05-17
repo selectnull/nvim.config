@@ -21,9 +21,10 @@ local function edit_with_relative_path()
   -- Calculate the relative directory path from the Git root
   -- and strip the leading slash
   local relative_dir = vim.fn.substitute(current_dir, git_root, "", ""):gsub("^/", "")
+  local command = ":edit " .. relative_dir .. "/"
 
   -- Pre-fill the command line with ':edit ' and the relative directory
-  vim.fn.feedkeys(vim.api.nvim_replace_termcodes(":edit " .. relative_dir .. "/", true, false, true))
+  vim.fn.feedkeys(vim.api.nvim_replace_termcodes(command, true, false, true))
 end
 
 -- Shortcut keys

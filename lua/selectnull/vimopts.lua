@@ -1,5 +1,8 @@
 -- my options
 local options = {
+  -- Turn modeline off
+  modeline = false,
+
   scrolloff = 4,
   signcolumn = "yes",
 
