@@ -1,11 +1,11 @@
 {
   "plugins": {
     "blink.cmp": {
-      "rev": "3db7326f54b73df4789e0fd6274bedda33975fea",
+      "rev": "39682a9c737920578cf68887c21eaa4ce3845c67",
       "src": "https://github.com/saghen/blink.cmp"
     },
     "blink.lib": {
-      "rev": "b127d48bf8e9ac9cf41f6e0fbead317503f76558",
+      "rev": "08ac9a9b873d3c7376e408a36c40c4131e2809ce",
       "src": "https://github.com/saghen/blink.lib"
     },
     "cmp-buffer": {
@@ -49,7 +49,7 @@
       "src": "https://github.com/metalelf0/kintsugi-nvim"
     },
     "koda.nvim": {
-      "rev": "ac7e746882b31a68bdcd533464a20ca40b712bcb",
+      "rev": "a7da3ced59eadafbda6eb4d7f7e2a6a3d9ecf858",
       "src": "https://github.com/oskarnurm/koda.nvim"
     },
     "lualine.nvim": {
@@ -65,7 +65,7 @@
       "src": "https://github.com/hrsh7th/nvim-cmp"
     },
     "nvim-lspconfig": {
-      "rev": "229b79051b380377664edc4cbd534930154921a1",
+      "rev": "a683e0ddf0cf64c6cd689e18ffb480ade3c162b7",
       "src": "https://github.com/neovim/nvim-lspconfig"
     },
     "nvim-surround": {
@@ -82,7 +82,7 @@
       "src": "https://github.com/nvim-tree/nvim-web-devicons"
     },
     "vague.nvim": {
-      "rev": "8ee15ea4505d64ede559ff1cb112582a6f2ea138",
+      "rev": "49fe06ad33d8847b931ba4279197bda222374cd1",
       "src": "https://github.com/vague-theme/vague.nvim"
     }
   }
