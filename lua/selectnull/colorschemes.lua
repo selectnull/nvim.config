@@ -28,4 +28,4 @@ end
 
 -- _kanagawa()
 
-vim.cmd.colorscheme "kintsugi-dark"
+vim.cmd.colorscheme "codescope"
