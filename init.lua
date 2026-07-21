@@ -15,9 +15,7 @@ require "selectnull.whitespace"
 vim.g.completion_engine = vim.g.completion_engine or "blink"
 
 -- plugins
-local github = function(repo)
-  return "https://github.com/" .. repo
-end
+local github = require("selectnull.pack").github
 vim.pack.add {
   github "nvim-tree/nvim-web-devicons",
   github "neovim/nvim-lspconfig",
@@ -45,4 +43,4 @@ require("codeexplorer").setup { key = "<C-CR>" }
 require "selectnull.completion"
 require "selectnull.lsp"
 
-require "selectnull.colorschemes"
+require("selectnull.colorschemes").select "codescope"
