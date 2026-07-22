@@ -43,4 +43,4 @@ require("codeexplorer").setup { key = "<C-CR>" }
 require "selectnull.completion"
 require "selectnull.lsp"
 
-require("selectnull.colorschemes").select "codescope"
+require("selectnull.colorschemes").select "srcery"

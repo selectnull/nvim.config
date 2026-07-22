@@ -81,6 +81,10 @@
       "rev": "0ca28b61a04fe7426cefbdd52c2647ef0e335b5f",
       "src": "https://github.com/nvim-tree/nvim-web-devicons"
     },
+    "srcery-vim": {
+      "rev": "d4889a85c26702217838da941f921042c17b6397",
+      "src": "https://github.com/srcery-colors/srcery-vim"
+    },
     "vague.nvim": {
       "rev": "f9060fdaf7b20f68575d6f8214da6f1cf0c72825",
       "src": "https://github.com/vague-theme/vague.nvim"

@@ -12,6 +12,7 @@ vim.pack.add {
   github "cocopon/iceberg.vim",
   github "EdenEast/nightfox.nvim",
   github "metalelf0/kintsugi-nvim",
+  github "srcery-colors/srcery-vim",
 }
 
 local function _kanagawa()
