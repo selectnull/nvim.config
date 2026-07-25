@@ -32,6 +32,7 @@ vim.keymap.set("n", "<leader>e", edit_with_relative_path)
 vim.keymap.set("n", "<leader>w", ":write<CR>")
 vim.keymap.set("n", "<leader>q", ":quitall<CR>")
 vim.keymap.set("n", "<leader>d", ":bdelete<CR>")
+vim.keymap.set("n", "<leader>R", ":restart<CR>")
 
 -- Insert empty lines below and above the current line
 vim.keymap.set("n", "<leader>o", "o<ESC>k")
