@@ -55,6 +55,10 @@ for i, kind in ipairs(completion_kinds) do
   completion_kinds[i] = icons[kind] and icons[kind] .. kind or kind
 end
 
+local toggle_inlayhints = function()
+  vim.lsp.inlay_hint.enable(not vim.lsp.inlay_hint.is_enabled {})
+end
+
 vim.api.nvim_create_autocmd("LspAttach", {
   group = vim.api.nvim_create_augroup("selectnull-lsp-attach", { clear = true }),
   callback = function(ev)
@@ -70,10 +74,9 @@ vim.api.nvim_create_autocmd("LspAttach", {
     vim.keymap.set("n", "<C-k>", vim.lsp.buf.signature_help, {})
     vim.keymap.set("n", "gra", vim.lsp.buf.code_action, {})
     vim.keymap.set("n", "grn", vim.lsp.buf.rename, {})
-    vim.keymap.set("n", "<C-l>h", function()
-      vim.lsp.inlay_hint.enable(not vim.lsp.inlay_hint.is_enabled {})
-    end, {})
 
+    vim.keymap.set("n", "<C-l>h", toggle_inlayhints, {})
+    vim.keymap.set("n", "<C-l><C-h>", toggle_inlayhints, {})
     vim.keymap.set("n", "<C-l><C-l>", vim.diagnostic.open_float, {})
     vim.keymap.set("n", "<C-l>l", vim.diagnostic.open_float, {})
     vim.keymap.set("n", "<C-l><C-p>", vim.diagnostic.goto_prev, {})
