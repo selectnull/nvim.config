@@ -103,4 +103,4 @@ vim.api.nvim_create_autocmd("LspAttach", {
   end,
 })
 
-vim.lsp.enable { "basedpyright", "lua_ls", "tsc", "denols", "bashls", "html", "clangd", "gopls" }
+vim.lsp.enable { "basedpyright", "lua_ls", "tsc", "denols", "bashls", "html", "clangd", "gopls", "tinymist" }
